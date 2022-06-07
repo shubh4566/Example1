@@ -1,5 +1,5 @@
 import requests
-city = 'etobicoke'
+city = 'Waterloo'
 api_url = 'https://api.api-ninjas.com/v1/airquality?city={}'.format(city)
 response = requests.get(api_url, headers={'X-Api-Key': 'c0iY9sfTw/7DnxISfapT+Q==VI3tqKcqsglhoWHV'})
 if response.status_code == requests.codes.ok:
